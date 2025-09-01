@@ -22,26 +22,9 @@ const loginSchema = z.object({
 export const authConfig: AuthOptions = {
   pages: {
     signIn: '/auth/login',
-    signUp: '/auth/register',
     error: '/auth/error',
   },
   callbacks: {
-    authorized({ auth, request: { nextUrl } }) {
-      const isLoggedIn = !!auth?.user;
-      const isOnAuthPage = nextUrl.pathname.startsWith('/auth');
-      const isOnProtectedPage = nextUrl.pathname.startsWith('/dashboard') || 
-                               nextUrl.pathname.startsWith('/projects');
-
-      if (isOnProtectedPage) {
-        if (isLoggedIn) return true;
-        return false; // Redirect unauthenticated users to login page
-      } else if (isOnAuthPage) {
-        if (isLoggedIn) {
-          return Response.redirect(new URL('/dashboard', nextUrl));
-        }
-      }
-      return true;
-    },
     async jwt({ token, user, account }) {
       if (user) {
         token.id = user.id;

@@ -91,17 +91,24 @@ launch_craft/
 ## 開發進度追蹤
 
 ### 已完成任務
-- ✅ 建立 docs 目錄
-- ✅ 撰寫產品需求文檔 (prd.md)
-- ✅ 撰寫功能拆解清單 (todo.md)
-- ✅ 更新 CLAUDE.md 專案追蹤說明
-- ✅ 安裝所有核心依賴套件（Shadcn/ui, Zustand, React Hook Form, Zod, Framer Motion, OpenAI SDK）
+#### Phase 1 - 基礎建設
+- ✅ 建立 docs 目錄和專案文檔
+- ✅ 安裝所有核心依賴套件
 - ✅ 建立專案目錄結構
 - ✅ 設定環境變數檔案
 - ✅ 建立 Header 和 Footer 元件
 - ✅ 建立全域 Store (Zustand)
 - ✅ 設計並實作首頁
-- ✅ 整合基礎 UI 元件
+
+#### Phase 1 - 核心功能
+- ✅ 建立生成器頁面路由
+- ✅ 開發專案資訊表單（包含完整驗證）
+- ✅ 實作表單 Schema 和驗證邏輯
+- ✅ 整合 OpenAI API 路由
+- ✅ 實作所有文案生成功能
+- ✅ 建立生成結果預覽元件
+- ✅ 實作編輯和複製功能
+- ✅ App Store 預覽模擬
 
 ### 當前階段
 **Phase 1: MVP 核心功能開發**

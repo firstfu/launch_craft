@@ -6,6 +6,6 @@
  * @version 1.0.0
  */
 
-import { GET, POST } from '@/lib/auth-new';
+import { GET, POST } from '@/lib/auth';
 
 export { GET, POST };

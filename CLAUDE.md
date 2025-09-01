@@ -54,3 +54,7 @@ npm run lint
 - 页面组件位于 `app/` 目录下，遵循 Next.js App Router 约定
 - 编辑 `app/page.tsx` 时页面会自动热更新
 - 项目使用 Turbopack 进行更快的开发构建
+- 1、請將規畫書寫成 prd.md 放在 docs 目錄下。                                                                
+2、請將規畫書拆解成不同的子功能 todo, 然後放在 docs 目錄下的 todo.md 文件。        3、更新CLAUDE.md 文件，請寫上每完成一個 todo的功能，要將 todo.md 裡面對應的功能劃掉。   
+4、一律用繁體中文回應。  
+5、每個文件的頂部要加上詳細的註解。

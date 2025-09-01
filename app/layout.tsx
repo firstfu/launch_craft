@@ -29,11 +29,24 @@ export const metadata: Metadata = {
   description: "利用 AI 技術快速生成專業的 iOS App Store 上架資料，包含應用名稱、描述、關鍵字等，支援多語言翻譯",
   keywords: ["App Store", "iOS", "上架", "ASO", "AI", "生成器"],
   authors: [{ name: "LaunchCraft Team" }],
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "LaunchCraft - iOS App Store 上架資料生成器",
     description: "利用 AI 技術快速生成專業的 iOS App Store 上架資料",
     type: "website",
     locale: "zh_TW",
+    images: [
+      {
+        url: "/apple-icon.png",
+        width: 180,
+        height: 180,
+        alt: "LaunchCraft Logo",
+      },
+    ],
   },
 };
 

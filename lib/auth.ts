@@ -64,7 +64,7 @@ const authConfig: NextAuthConfig = {
   session: {
     strategy: 'jwt' as const,
   },
-  secret: process.env.NEXTAUTH_SECRET || 'fallback-secret-for-dev',
+  secret: process.env.NEXTAUTH_SECRET,
   trustHost: true,
 };
 

@@ -24,24 +24,24 @@
 
 ### 1. 專案初始化與環境設定 🔴
 
-- [ ] **1.1 安裝必要依賴套件**
-  - [ ] 安裝 UI 元件庫（Shadcn/ui）
-  - [ ] 安裝狀態管理（Zustand）
-  - [ ] 安裝表單處理（React Hook Form + Zod）
-  - [ ] 安裝動畫庫（Framer Motion）
-  - [ ] 安裝 OpenAI SDK
+- [x] **1.1 安裝必要依賴套件**
+  - ~~[x] 安裝 UI 元件庫（Shadcn/ui）~~
+  - ~~[x] 安裝狀態管理（Zustand）~~
+  - ~~[x] 安裝表單處理（React Hook Form + Zod）~~
+  - ~~[x] 安裝動畫庫（Framer Motion）~~
+  - ~~[x] 安裝 OpenAI SDK~~
 
-- [ ] **1.2 設定專案結構**
-  - [ ] 建立 components 目錄結構
-  - [ ] 建立 lib 工具函數目錄
-  - [ ] 建立 types 類型定義目錄
-  - [ ] 建立 hooks 自定義 Hook 目錄
-  - [ ] 建立 services API 服務目錄
+- [x] **1.2 設定專案結構**
+  - ~~[x] 建立 components 目錄結構~~
+  - ~~[x] 建立 lib 工具函數目錄~~
+  - ~~[x] 建立 types 類型定義目錄~~
+  - ~~[x] 建立 hooks 自定義 Hook 目錄~~
+  - ~~[x] 建立 services API 服務目錄~~
 
-- [ ] **1.3 環境變數配置**
-  - [ ] 設定 .env.local 檔案
-  - [ ] 配置 OpenAI API 金鑰
-  - [ ] 設定應用程式基礎 URL
+- [x] **1.3 環境變數配置**
+  - ~~[x] 設定 .env.local 檔案~~
+  - ~~[x] 配置 OpenAI API 金鑰~~
+  - ~~[x] 設定應用程式基礎 URL~~
 
 ### 2. UI/UX 基礎建設 🔴
 
@@ -51,19 +51,19 @@
   - [ ] 建立間距規範
   - [ ] 設計響應式斷點
 
-- [ ] **2.2 共用元件開發**
-  - [ ] Header 導航列元件
-  - [ ] Footer 頁尾元件
-  - [ ] Button 按鈕元件
-  - [ ] Input 輸入框元件
-  - [ ] Card 卡片元件
+- [x] **2.2 共用元件開發**
+  - ~~[x] Header 導航列元件~~
+  - ~~[x] Footer 頁尾元件~~
+  - ~~[x] Button 按鈕元件~~
+  - ~~[x] Input 輸入框元件~~
+  - ~~[x] Card 卡片元件~~
   - [ ] Modal 彈窗元件
-  - [ ] Toast 通知元件
+  - ~~[x] Toast 通知元件 (Sonner)~~
   - [ ] Loading 載入狀態元件
 
-- [ ] **2.3 版面配置**
-  - [ ] 建立主要 Layout
-  - [ ] 設計首頁佈局
+- [x] **2.3 版面配置**
+  - ~~[x] 建立主要 Layout~~
+  - ~~[x] 設計首頁佈局~~
   - [ ] 建立生成器頁面佈局
   - [ ] 設計預覽頁面佈局
 
